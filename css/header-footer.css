@@ -1,5 +1,5 @@
 .header {
-    background-color: var(--primary);
+    background-color: var(--white);
     min-height: unset;
     position: absolute;
     z-index: 99;
@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: var(--white);
+    background-color: var(--light-grey);
 }
 
 .header .button-wrapper {
@@ -23,8 +23,8 @@
 }
 
 .header .button-wrapper .btn {
-    color: var(--primary);
-    background-color: var(--white);
+    color: var(--white);
+    background-color: var(--primary);
     transition: var(--transition);
 }
 
@@ -74,7 +74,7 @@
 
 .header .nav-logo,
 .footer .nav-logo {
-    color: var(--white);
+    color: var(--black);
     font-weight: 700;
 }
 
@@ -92,7 +92,7 @@
 }
 
 .header .container .nav {
-    color: var(--white);
+    color: var(--black);
     font-size: 14px;
     font-weight: 700;
     text-decoration: none;
@@ -184,7 +184,7 @@
 }
 
 .header .nav::before {
-    background-color: var(--white);
+    background-color: var(--primary);
 }
 
 .nav:hover::before {
@@ -218,7 +218,7 @@
 
 .socials a {
     color: var(--white);
-    font-size: 32px;
+    font-size: 18px;
     transition: var(--transition);
 }
 
