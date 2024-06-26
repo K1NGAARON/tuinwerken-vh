@@ -46,6 +46,38 @@
     min-height: 50vh;
 }
 
+.reviews-wrapper {
+    margin-top: 20px;
+}
+
+.services-wrapper {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.services-wrapper .item {
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--borderRadius);
+    box-shadow: var(--boxShadow);
+}
+
+.services-wrapper .item img {
+    border-top-right-radius: var(--borderRadius);
+    border-top-left-radius: var(--borderRadius);
+}
+
+.services-wrapper .item .content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.services-wrapper .item .content .btn {
+    margin-top: 20px;
+}
+
 .values-wrapper {
     width: 100%;
     display: flex;
