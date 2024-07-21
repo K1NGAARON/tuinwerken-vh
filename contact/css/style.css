@@ -14,7 +14,7 @@
 
 .banner.section,
 .banner.section .row {
-    min-height: 80vh;
+    min-height: 100vh;
 }
 
 .banner.contact .legal .legal-item a, 
