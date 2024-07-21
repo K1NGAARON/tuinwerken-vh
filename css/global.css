@@ -123,6 +123,10 @@ img.bg {
     background-color: var(--primary);
 }
 
+.section.small .row {
+    margin: 40px auto;
+}
+
 .section.green h2 {
     color: var(--white);
 }

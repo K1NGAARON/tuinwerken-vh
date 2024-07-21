@@ -89,11 +89,6 @@
     flex: 2 0;
 }
 
-.cta-wrapper .item .btn {
-    color: var(--primary);
-    background-color: var(--white);
-}
-
 .values-wrapper {
     width: 100%;
     display: flex;
