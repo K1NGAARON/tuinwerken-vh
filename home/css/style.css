@@ -60,7 +60,11 @@
     display: flex;
     flex-direction: column;
     border-radius: var(--borderRadius);
-    box-shadow: var(--boxShadow);
+    border: 1px solid #cccccc;
+}
+
+.services-wrapper .item:nth-child(2) {
+    border: 2px solid var(--primary);
 }
 
 .services-wrapper .item img {
