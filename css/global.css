@@ -228,6 +228,21 @@ img.bg {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    overflow: hidden;
+}
+
+.item .image-wrapper {
+    display: flex;
+    overflow: hidden;
+}
+
+.item .image-wrapper img {
+    transition: var(--transition);
+}
+
+.item:hover .image-wrapper img {
+    transform: scale(1.05);
+    transition: var(--transition);
 }
 
 .overlay {

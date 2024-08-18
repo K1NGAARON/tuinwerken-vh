@@ -193,10 +193,6 @@
     position: relative;
 }
 
-/* .projects-wrapper .item.large {
-    flex: 1 0 60%;
-} */
-
 .projects-wrapper .item .content {
     display: none;
     position: absolute;
