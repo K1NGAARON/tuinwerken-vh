@@ -293,7 +293,7 @@
 
     .header .logo, 
     .footer .logo {
-        width: 75px;
+        width: 125px;
     }
 
     .nav::before {

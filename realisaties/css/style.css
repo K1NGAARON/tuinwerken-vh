@@ -30,3 +30,11 @@
 .gallery .gallery-wrapper .item {
     flex: 1 0 45%;
 }
+
+.wrapper.project-wrapper {
+    margin-top: 40px;
+}
+
+.wrapper .item.mt-40 {
+    margin-top: 40px;
+}
