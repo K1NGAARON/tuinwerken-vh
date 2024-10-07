@@ -38,3 +38,18 @@
 .wrapper .item.mt-40 {
     margin-top: 40px;
 }
+
+@media (max-width: 560px) {
+    .banner.section,
+    .banner.section .row {
+        height: 50vh;
+    }
+
+    .banner.section h1 {
+        text-align: center;
+    }
+
+    .section.grey .row.flex-col.center h2 {
+        text-align: center;
+    }
+}

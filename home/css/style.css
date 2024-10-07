@@ -382,6 +382,10 @@
         flex: 1 0 100%;
     }
 
+    .services-wrapper .item {
+        flex: 1 0 100%;
+    }
+
     .diensten-wrapper .item .content h3,
     .projects-wrapper .item .content h3 {
         font-size: 16px;

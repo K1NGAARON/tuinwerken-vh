@@ -21,3 +21,11 @@
 .banner.contact .legal .legal-item p {
     color: var(--white);
 }
+
+@media (max-width: 560px) {
+    .banner.section,
+    .banner.section .row {
+        height: 100vh;
+        min-height: auto;
+    }
+}
