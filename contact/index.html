@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="/css/header-footer.css">
     <link rel="stylesheet" href="/contact/css/style.css">
 
+    <link rel="stylesheet" href="/offerte/css/style.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
@@ -145,19 +147,35 @@
         </div>
         <div class="col">
             <div class="form-wrapper">
-                <form action="https://formspree.io/f/xnqeevgq" method="post" validate>
-                    <div class="form-row">
+                <form action="https://formspree.io/f/myzgkzpl" method="post" validate enctype=multipart/form-data>
+                    <div class="form-row row-direction">
                         <input type="text" value="" name="first-name" placeholder="Voornaam*" required>
                         <input type="text" value="" name="last-name" placeholder="Familienaam*" required>
                     </div>
                     <div class="form-row">
                         <input type="email" value="" name="email" placeholder="E-mailadres*" required>
-                        <input type="tel" value="" name="telefoon" placeholder="Telefoonnummer*" required>
                     </div>
                     <div class="form-row">
-                        <input type="text" value="" name="message" placeholder="Hoe kunnen we je helpen?*">
+                        <label style="color: var(--black);" for="type-werken">Welke werken wil je laten uitvoeren? Omschrijf zo volledig mogelijk.</label>
+                        <input type="text" value="" name="type-werken" placeholder="Vul het antwoord hier in.">
                     </div>
-                    <input type="submit" value="Verstuur ➔" name="subscribe" class="btn">
+                    <div class="form-row">
+                        <label style="color: var(--black);" for="toegang-tuin">Is er een vrije doorgang naar de tuin van minimum 2,60 meter hoog en 1,60 meter breed voor onze machines?
+                            <br>
+                            Indien neen: Wat is de minimale hoogte en breedte van de doorgang naar de tuin?
+                        </label>
+                        <input type="text" value="" name="toegang-tuin" placeholder="Vul het antwoord hier in.">
+                    </div>
+                    <div class="form-row">
+                        <label style="color: var(--black);" for="regio-adres">Op welk adres vinden de werken plaats?</label>
+                        <input type="text" value="" name="regio-adres" placeholder="Vul het antwoord hier in.">
+                    </div>
+                    <div class="form-row">
+                        <label style="color: var(--black);" for="file-upload">Voeg nog enkele foto’s toe van de plaats waar de werken moeten gebeuren. Zo kunnen we je een accurate offerte geven.</label>
+                        <input type="file" name="file-upload" multiple="true">
+                    </div>
+
+                    <input type="submit" value="Verstuur" name="subscribe" class="btn">
                 </form>
             </div>
         </div>
