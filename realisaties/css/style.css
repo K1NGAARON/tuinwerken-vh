@@ -42,7 +42,7 @@
 @media (max-width: 560px) {
     .banner.section,
     .banner.section .row {
-        height: 50vh;
+        height: 60vh;
     }
 
     .banner.section h1 {
