@@ -52,4 +52,8 @@
     .section.grey .row.flex-col.center h2 {
         text-align: center;
     }
+    
+    .mobile-offset {
+        padding-top: 80px; margin-top: -80px;
+    }
 }
